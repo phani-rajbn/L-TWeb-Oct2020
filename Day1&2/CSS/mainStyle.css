@@ -1,0 +1,117 @@
+/*
+All External CSS files are saved with .css extension
+If U have multiple elements to have the same styling, then U could use class. class in CSS means type. any element of that type could get all the styleing defined in that class. 
+* is a wild charecter used to apply a certain style to all the elements of the document unless mentioned specifically.
+*/
+*{
+    font-size: 18pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: blanchedalmond;
+}
+
+.menu{
+    float: left;
+    margin-left:15px;
+    margin-top:15px;
+    width: 150px;
+    background-color: lightyellow;
+    padding:15px;
+    text-align: center;
+    height: 1000px;
+    border: 2px solid gold;
+}
+
+a{
+    display : block;
+    padding: 5px;
+    margin:5px;
+    height:45px;
+    color:lightblue;
+    background-color :blue;
+}
+a:hover{
+    background-color: yellow;
+}
+
+/*Headings must have a common style...................*/
+.heading{
+    font-size: 40pt;
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    border: 5px solid lightgreen ;
+}
+
+.subHeading{
+    color : grey;
+    margin-left: 15px;
+    margin-bottom:15px;
+    font-size :24pt;
+}
+
+.footer{
+    width: 80%;
+    bottom: 0px;
+    text-align: center;
+    position: fixed;
+    margin-left : 250px;
+}
+
+table{
+    width: 75%;
+    padding: 10px;
+    margin:10px;
+    border: 2px;
+}
+
+td:hover{
+    background-color: red;
+}
+.block{
+    width:30%;
+    display:inline-block;
+    border:1px solid;
+    padding: 5pt;
+    margin :5pt;
+    box-shadow: 5px 10px 10px orange;
+    text-shadow: 3px 3px 5px;
+}
+/*# is used to identify an element based on ID. ID is unique for a given page.*/
+#init{
+    box-shadow: 5px 10px 10px orange inset;
+}
+
+input, select, textarea{
+    padding: 5px;
+    margin:5px;
+    border : 2px solid gainsboro;
+    border-radius: 5px;    
+    color:brown;
+}
+
+button{
+    margin-left: 250px;
+    border : 2px solid darkgrey;
+    padding: 10px;
+    height: 70px;
+    width:200px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+img.pic{
+    /*styles for the element img whose class name is pic*/
+    float:right;
+}
+
+section{
+    display:block;
+}
+
+img.ani{
+    float:left;
+}
+.ani{
+    display : flexbox;
+    clear : right;
+}

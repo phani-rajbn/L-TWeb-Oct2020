@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using Functions</title>
+</head>
+<body>
+	<script>
+		function checkForNumber(value){
+			if(isNaN(value)){
+				alert("Not a valid Number");
+				return false;//return is a jump statement to exit the function block. 
+			}
+			else return true;
+		}
+
+		function calcProgram(){
+			var value1 = prompt("Enter the First value");
+			if(!checkForNumber(value1)){
+				return;//Exit the function....
+			}//no need for else condition
+			value1 = parseFloat(value1);//It comes here only if there is a valid number...
+
+			var value2 = prompt("Enter the second value")
+			if(!checkForNumber(value2)){
+				return;//Exit the function....
+			}
+			value2 = parseFloat(value2);
+			var operand = prompt("Enter the operand as +, -, X or /");
+			switch(operand){
+			case "+":
+				alert("The added value is " + (value1 + value2));
+				break;
+			case "-":
+				alert("The Subtracted value is " + (value1 - value2));
+				break;
+			case "X":
+				alert("The Multiplied value is " + (value1 * value2));
+				break;
+			case "/":
+				alert("The Divided value is " + (value1 / value2));
+				break;
+			default://For other values...
+				alert("Invalid Operation is selected, Not computable");
+				break;					
+		}
+		}
+		calcProgram();//Call this function, else it wont work...
+	</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+Course:
+Web Development and Nodejs
+
+Trainer: PHANI RAJ B.N.
+
+https://meet.google.com/zez-badj-zug
+
+Software:
+Sublime Text or VS Code.
+Nodejs download.
+
+E-Mail Address: phani.blrtraining@gmail.com
+Day 1: 
+HTML Basics:
+HTML is a markup language used to develop Web sites. 
+Markup language is some thing that makes U to view the content in a linear format with formatting of the content done thro Tags.
+Tag is an instruction given with <> braces. Tags also represent a block where the styling or the mark up is applied. 
+
+Why Web Sites?
+A high end of reachability to meet Ur clients and users with little or less effort both in terms of hardware and software is what makes Web Sites a prefered way of sharing some information to all the users. This could be an info about Urself, a business to grow or could be data sharing among a group of people. 
+
+What is required:
+A dedicated machine with a certain software called Web server that will store all the content in the form of HTML pages. 
+A network of communications which is made available thro HTTP(HyperText Transfer Protocol). 
+The pages are created with extension .html. 
+They are finally grouped into a folder and shared to a 3rd party vendor who publishes these data thro internet. 
+
+HTML is the primary requirement for creating Web Pages. 
+HyperText is the text displayed on the computer or any electronic gadget with references to other content or text that an user can access it by clicking that reference. The Reference in HTML is called as HyperLinks. As it links the Texts or contents from one part to another, this is called as HyperText. 
+HyperText contains Text, Tables, Lists, Interactive Forms, Images and many other presentable elements. 
+HTML is not a programming language. It does contain any logic. It is simply a presentation of text in a certain format. 
+To format the text, we use Tags. Also called as Markup tags, they are used as wrappers to the content with a begin tag and an End Tag. Each Tag has some instruction to present the content/text that wraps it. 
+
+The instructions are implemented or interpreted by a software called BROWSER. The Tags are interpreted to be presented in a predefined format. The Browser is the tool thro which U view the HTML documents. 
+There are many browsers created by various software vendors to suit their Operating Systems. MS uses EDGE as a default browser, Andriod uses Google Chrome as the default browser, Safari is used by Mac machines and Firefox is used by Unix/Fedora versions. 
+Most of the browsers follow the stds defined by a Web group called w3c(World Wide Web Consortium). 
+
+Final point: 
+U create the Web content using HTML and save it as HTML Pages. 
+Grouped and managed by a Software called Web Server. 
+Clients or users access these pages thro internet and view the pages using a software called Web Browser. 
+HTTP is the protocol used to transfer the content from the server to the client browser and vice versa. 
+----------------------------------------------------------------
+Any text editor is fine to create a Web Page. So create the pages, save them as .html pages. 
+But for professionals, its good to use an IDE Editor like Sublime Text, VS Code, Visual Studio, Eclipse and many more.
+
+Any HTML Doc will start with DocType html. This tells that it is a HTML Document with version 5.  
+Every HTML doc will have 2 parts: head, body.
+head segment contains info for the developers, browsers, search engines, instructions to the reviewers of the Document. This section is not for the end user.
+
+Body segment is the area that does the presentation of the document, anything that U write here will be viewed in the browser. 
+
+headings are created using h1...h6 tags. h1 is the largest and h6 is the smallest. Most of the cases, U use only from h1 to h3. 
+UR Page can be logically grouped into Divisions. Use div tag to create divisions within the html docs. divs are the most popular tags used for breaking up ur page into logical units. 
+each unit contains a block of data that relates to a certain content. 
+Use <p> tags for creating paragraphs.  
+Most of the tags will have an end tag with a /. However some may not have it or need it. 
+From HTML5, divs are replaced by new tags which also defines the purpose of it. It is nothing but the improvised versions of divs.  
+For sp charecters to be placed in HTML Docs like CopyRights, <, > Operators, we use entities. Entities will be prefixed with & and ended with a ; popular Entities are &nbsp;(White space),   
+
+NOTE: <div>, <p> and  their derivatives will occupy the complete linear content of the document. From the left to the right. 
+
+Other than the formatting tags, U have quotation Tags that is used to quote text within a HTML document. <cite><q>. Learn this URself(Reading Assignment). 
+
+<pre> tag is used to present preformatted content...
+---------------------------------------------------------------------------------------------
+CSS: Cascading style sheets. Used to decorate the HTML Docs. U can do this in 3 ways:
+inline, Internal or External Files
+Inline styleing is where U apply style to the individual Tags. 
+Interal styling is done targetting the specific HTML page. 
+External Styling is done targetting the whole web site to give an uniform look and feel. 
+Inline will be the first preference, then internal and finally external 
+
+Selecting an element for styling in done in 3 ways:
+Tagname
+ID of the element
+class of the element: Class means type, not OOP. Used to get the same feel and look for different types of elements which are logically grouped. 
+------------------Day 2-------------------------------------------
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

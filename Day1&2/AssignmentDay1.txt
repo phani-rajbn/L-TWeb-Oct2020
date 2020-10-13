@@ -1,0 +1,7 @@
+Create a web application for a resort in Mysore. The Resort was initially associated with OYO Rooms. Now they are planning to expand their business with their own Website. 
+Expectations:
+It should have a Home Page, About Page, Rooms Page, Facilities Page and Enquiry Page.
+Use appropriate Pics to make it look pleasant.  
+Use CSS to provide some stylings to the Pages. Currently use Internal Styling to all the 4 pages of the Web Site. 
+Enquiry page is a web form that takes info about the Person who wishes to visit the Resort with details include the name, contact no, email, date of checkIn and no of days of stay. Also it should take inputs about what additional facilities he or she wishes to use like Food style(Veg-NonVeg), life style(Spa, Pool, Drinks) and Pick-Drop from airport. 
+ 

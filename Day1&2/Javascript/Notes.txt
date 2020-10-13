@@ -1,0 +1,24 @@
+Javascript is a scripting language used to create dynamic content within HTML documents.
+HTML is static markup language, so any changes or dynamic content U wish to place cannot be set unless U reload the page. 
+To make dynamic content, we need a thin programming content which is light weight and powerfull. This is done thro Scripting languages. JS is the most popular Scripting language. It is recommended by w3c. All browsers by default support JS. JS itself is maintained by a group of companies called ECMA(European Computer Manifactureres Association), The Current std of JS is ECMAScript 9. (ES9). 
+All browsers are expected to apply the ES Stds in their browsers so that the code that is developed should adhere to the coding principles of ECMA. All latest browsers support upto ES8. 
+
+Features:
+JS is the most popular scripting languages. Others include VBScript, Perl, JScript. 
+JS is light weight and yet powerfull. 
+Coding is simple with less syntax. 
+It also has Object Oriented Features(Since ES6). 
+Event handling, Callback functions and Async programming are some of the advanced features of JS. 
+JS has now been used to create rich frameworks for creating robust web apps. Some of the frameworks include Angular, React, VueJS and many more. 
+JS is also used on server side programming using a platform called NODEJS. 
+----------------------------------------------
+U create the JS code in 2 ways:
+Embedd the JS code under a <Script> tag in HTML. 
+Create a seperate JS file and include it inside the HTML docs like we do with external css files. 
+
+Programming concepts:
+variables: In JS, variables are created using let(ES6) and var. 
+
+
+
+
