@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        div{
+            display: inline-block;
+            width: 40%;
+            height: 350px;
+            border: 2px solid blue;
+            margin:5px;
+        }
+    </style>
+    <script src="lib/jquery.js"></script>
+    <script>        
+        function init() {
+            $("a:gt(0)").click(function(){
+                //$(this).parent().fadeOut(3000);//USed to hide the specified element by fading them to transperant. To get them back U could use fadeIn function....
+                $(this).parent().slideUp(3000);//provides animation to decrease the hieght in a slow manner till the height becomes 0....
+            })
+            $("a:first").click(function(){
+                $("div").fadeIn(3000);//makes the element opaque
+            })
+        }
+        //toggle for both sliding as well as fading...
+        $(document).ready(init);
+    </script>
+</head>
+<body>
+    <p><a href="#">Display All</a></p>
+    <div style="background-color: cornflowerblue;"><a href="#">Fade</a></div>
+    <div style="background-color: orange;"><a href="#">Fade</a></div>
+    <div style="background-color: green;"><a href="#">Fade</a></div>
+    <div style="background-color: yellow;"><a href="#">Fade</a></div>
+</body>
+</html>

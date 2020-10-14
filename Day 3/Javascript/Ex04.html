@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calculator</title>
+	<script src="./Scripts/mathCalc.js"></script>
+	<script src="./Scripts/Common.js"></script>
+	<script>
+		function invokeOperation(){
+			//take the input value of the first, second and the operand...
+			var firstValue = parseFloat($("num1").value);
+			//value is the property of the HTML Input Element which gets/sets the value for the input....
+			var secondValue = parseFloat($("num2").value);
+			var operation = $("option").value;
+			//invoke the performOperation function by passing the values to it.
+			var result = performOperation(firstValue, secondValue, operation); 
+			//Capture the result and display it in the paragraph represented by id pResult..
+			var pRes = $("pResult");
+			pRes.innerText = "The Result : " + result;
+			//innerText is an attribute used to set/get the Text within the HTML element other than input. 
+		}
+	</script>
+	<style>
+		*{
+			font-size: 20pt;
+			background-color: lightblue;
+			color : darkblue;
+			padding: 5px;
+			margin:5px;
+		}
+		button{
+			width: 150px;
+			height: 60px;
+			background-color:indianred;
+		}
+	</style>
+</head>
+<body>
+	<h1>Calculator Program</h1>
+	<div>
+		<p>Enter the First Value: <input type="number" id="num1"></p>
+		<p>Enter the Second Value: <input type="number" id="num2"></p>
+		<p>
+			Select the Operation:
+			<select id="option">
+				<option>---Choose One---</option>
+				<option>Add</option>
+				<option>Subtract</option>
+				<option>Multiply</option>
+				<option>Divide</option>
+				<option>Square</option>
+				<option>SquareRoot</option>
+			</select>
+		</p>
+		<p>
+			<button type="button" onclick="invokeOperation()">=</button>
+		</p>
+		<p id="pResult">
+		</p>
+	</div>
+</body>
+</html>

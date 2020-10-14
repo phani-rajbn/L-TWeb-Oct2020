@@ -1,0 +1,18 @@
+jQuery is a library written in JS to create Faster and feature rich User interfaces using a single .js file. It has many shortcut APIs that would do more work with less code. Things that are hard to implement in classic JS could be done here with minimal or less code. 
+Main idea of using jQuery is to provide APIs to manipulate the DOM elements using selectors. U could select the elements of the DOM like we do for CSS elements: id, tag and class. 
+jQuery allows to search for the elements with the document and perform some operation on them with callback functions.
+It is easy and simple to use, write less code and get more functionality is the moto of jQuery. 
+
+U need to download a minified .js file called jquery with current version 3.2.x. 
+Alternatively, U could any of the CDN(Content Delivery Networks) of popular vendors like GOOGLE, MS, jQUERY where the file is available in the cloud and is referenced in ur code. There will no burden of maintaining the JQUERY FILE. 
+
+Interally, the lib creates a global object called jQuery whose job is to find an element based on UR selection criteria and provide functions thro which U could perform some operations like click, animations and give a interactive look and feel. Basically jQuery is used to manipulate the elements of the HTML document.
+$ is the shortcut for the jquery global object 
+
+
+document.ready will make the jQuery to wait till the document is completely loaded into the browser and when ready, invoke a function. 
+
+Using selectors:
+3 ways to select the elements:
+By the tagname: $("div"), $("p") and so forth....
+By the ID of the element : $("#id")

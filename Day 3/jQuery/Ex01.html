@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Basics</title>
+    <style>
+        div{
+            width: 30%; height:300px; background-color: red;
+            padding: 5px; margin: 10px;
+        }
+    </style>
+    <script src="lib/jquery.js"></script>
+    <script>
+        /* function init(){
+            $("div").click(function(){//execute when any div is clicked....
+                $(this).hide(2000);
+            })
+        } 
+        This is called Anonymous methods where there is no name to the method and will be limited to be used within the scope of the event handler. As this function has no name, U cannot invoke this function anywhere else other than where it is implemented. 
+        */
+        $(document).ready(function(){
+            $("div").click(function () {//execute when any div is clicked....
+                $(this).hide(2000);
+            })
+
+            //code to modify the css elements....
+            $("#div1").mousemove(function(){
+                //# is used to select element by id...
+                $(this).css("background-color", "yellow");
+            })
+        });//this line executes first..
+    </script>
+</head>
+<body>
+    <div id="div1">
+        Testing some code
+    </div>
+    
+    <div>
+        Testing some code
+    </div>
+    <div>
+        Testing some code
+    </div>
+    <div>
+        Testing some code
+    </div>
+
+</body>
+</html>
